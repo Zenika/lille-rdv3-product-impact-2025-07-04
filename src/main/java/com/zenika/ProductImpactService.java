@@ -19,4 +19,7 @@ public class ProductImpactService {
     @Inject
     EntityManager em;
 
+    // To retrieve all material impacts from DB
+    // List<MaterialImpactEntity> materialImpactsPerKg = em.createQuery("from MaterialImpactEntity", MaterialImpactEntity.class).getResultList();
+
 }
